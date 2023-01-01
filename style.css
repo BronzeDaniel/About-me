@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   cursor: default;
   margin-left: 50px;
 }
@@ -77,17 +77,14 @@ h1, h2, h3 {
   color: #4facfe;
 }
 
-
 .hero__box {
   max-width: 500px;
   justify-self: center;
   overflow: hidden;
   border: 8px solid #fff;
-
   background-image: linear-gradient(to right, #41a6ff 0%, #00ffee 100%);
-
-  animation: ava-animate 8s infinite alternate;
-  box-shadow: 50px 25px 35px rgba(0, 0, 0, .5);
+  animation: ava-animate 30s infinite alternate;
+  box-shadow: 50px 70px 35px rgba(0, 0, 0, .5);
 }
 
 .hero__box-img {
@@ -138,12 +135,20 @@ h1, h2, h3 {
     border-radius: 72% 28% 42% 58% / 26% 68% 32% 74%;
   }
 
+  20% {
+    border-radius: 60% 40% 73% 27% / 75% 44% 56% 25%;
+  }
+
   40% {
     border-radius: 52% 48% 36% 64% / 50% 38% 62% 50%;
   }
 
   60% {
     border-radius: 66% 34% 55% 45% / 70% 59% 41% 30%;
+  }
+  
+  80% {
+    border-radius: 45% 55% 69% 31% / 20% 64% 36% 80%;
   }
 
   100% {
