@@ -36,8 +36,8 @@ h1, h2, h3 {
 
 .hero__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax( 290px,1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax( 250px,1fr));
+  grid-gap: 0px;
 }
 
 .hero__about {
@@ -83,7 +83,7 @@ h1, h2, h3 {
   overflow: hidden;
   border: 8px solid #fff;
   background-image: linear-gradient(to right, #41a6ff 0%, #00ffee 100%);
-  animation: ava-animate 30s infinite alternate;
+  animation: ava-animate 25s infinite alternate;
   box-shadow: 50px 70px 35px rgba(0, 0, 0, .5);
 }
 
@@ -127,8 +127,6 @@ h1, h2, h3 {
     justify-self: center;
   }
 }
-
-
 
 @keyframes ava-animate {
   0% {
